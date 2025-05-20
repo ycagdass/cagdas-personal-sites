@@ -1,0 +1,13 @@
+{
+  "title": "Projelerim",
+  "desc": "Üzerinde çalıştığım ve çalışmakta olduğum projeleri burada bulabilirsiniz.",
+  "featured": "Öne Çıkan",
+  "website": "Web Sitesi",
+  "p_descriptions": {
+    "instafel": "Hızlı ve güncel Instagram alpha deneyimi sunar",
+    "instafel-updater": "Instafel'in otomatik güncellenmesi için kullanılan minik bir uygulama"
+  },
+  "categories": {
+    "android-app": "Android Uygulaması"
+  }
+}

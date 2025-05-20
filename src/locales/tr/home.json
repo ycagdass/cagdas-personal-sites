@@ -1,0 +1,13 @@
+{
+  "hero": {
+    "1": "mami'nin adasına",
+    "2": "hoş geldin"
+  },
+  "heroButtons": {
+    "viewProjects": "Projelerim",
+    "aboutMe": "Hakkımda"
+  },
+  "desc": "Bu sitede yazılarımı, projelerimi ve benimle ilgili her şeyi bulabilirsiniz!",
+  "recentPosts": "Son Gönderiler",
+  "viewAllPosts": "Tüm Gönderileri Gör"
+}

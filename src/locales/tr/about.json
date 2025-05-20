@@ -1,0 +1,18 @@
+{
+  "profile": {
+    "name": "Muhammed Ali",
+    "title": "Yazılım Geliştiricisi",
+    "photo": "Profil Fotoğrafı"
+  },
+  "about": "Merhaba! Genellikle Android geliştirme, Web, AI ve tersine mühendislik projeleri üzerinde çalışıyorum. Boş zamanlarımda genellikle yeni teknolojileri dener, açık kaynak projeler geliştirir veya geliştirilmesine katkıda bulunurum.",
+  "interests": {
+    "desktop": "Masaüstü",
+    "reverse": "Tersine Mühendislik"
+  },
+  "nav": {
+    "projects": "Projelerim",
+    "articles": "Makalelerim",
+    "contactme": "İletişime Geç",
+    "buymeacoffee": "Buy Me a Coffee"
+  }
+}

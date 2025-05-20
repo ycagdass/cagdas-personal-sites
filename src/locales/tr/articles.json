@@ -1,0 +1,8 @@
+{
+  "noPostsTitle": "Gönderiler Bulunamadı",
+  "noPostsDescription": "Gösterilecek gönderi yok. Lütfen daha sonra tekrar kontrol edin.",
+  "allTitle": "Tüm Yazılarım",
+  "allDescription": "Burada yayınladığım tüm yazılarımı bulabilirsiniz.",
+  "searchPlaceholder": "Yazılarda ara...",
+  "loadingPosts": "Gönderiler yükleniyor..."
+}

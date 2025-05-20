@@ -1,0 +1,13 @@
+{
+  "title": "Projects",
+  "desc": "You can find the projects I have worked on and am currently working on here.",
+  "featured": "Featured",
+  "website": "Website",
+  "p_descriptions": {
+    "instafel": "Provides fast & up-to-date Instagram alpha experience",
+    "instafel-updater": "A solution app for automatic updating of Instafel"
+  },
+  "categories": {
+    "android-app": "Android App"
+  }
+}

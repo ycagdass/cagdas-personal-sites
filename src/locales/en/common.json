@@ -1,0 +1,25 @@
+{
+  "navbar": {
+    "items": {
+      "articles": "Articles",
+      "projects": "Projects",
+      "about": "About"
+    },
+    "appearance": {
+      "title": "Appearance",
+      "light": "Light",
+      "dark": "Dark",
+      "auto": "Auto"
+    }
+  },
+  "footer": {
+    "smap-header": "Site Map",
+    "site-map": {
+      "home": "Home",
+      "articles": "Articles",
+      "projects": "Projects",
+      "about": "About"
+    },
+    "copyright": "© 2025 mamiiblt. All rights reserved."
+  }
+}

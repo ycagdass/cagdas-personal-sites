@@ -1,0 +1,25 @@
+{
+  "navbar": {
+    "items": {
+      "articles": "Yazılarım",
+      "projects": "Projelerim",
+      "about": "Hakkımda"
+    },
+    "appearance": {
+      "title": "Görünüm",
+      "light": "Aydınlık",
+      "dark": "Karanlık",
+      "auto": "Otomatik"
+    }
+  },
+  "footer": {
+    "smap-header": "Site Haritası",
+    "site-map": {
+      "home": "Ana Sayfa",
+      "articles": "Yazılarım",
+      "projects": "Projelerim",
+      "about": "Hakkımda"
+    },
+    "copyright": "© 2025 mamiiblt. Tüm hakları saklıdır."
+  }
+}
