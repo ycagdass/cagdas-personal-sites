@@ -10,7 +10,6 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { useT } from "@/i18n/client";
 import { HugeiconsIcon } from "@hugeicons/react";
 import {
   ComputerIcon,
@@ -18,11 +17,12 @@ import {
   Moon02Icon,
   Sun01Icon,
 } from "@hugeicons/core-free-icons";
+import { useTranslation } from "react-i18next";
 
 export default function ThemeSwitcher() {
   const [mounted, setMounted] = useState(false);
-  const { setTheme } = useTheme();
-  const { t } = useT("common");
+  const { setTheme, theme } = useTheme();
+  const { t } = useTranslation("common");
 
   useEffect(() => {
     setMounted(true);
@@ -37,6 +37,25 @@ export default function ThemeSwitcher() {
   }
 
   return (
+    <Button variant={"ghost"} size="icon" className="relative" onClick={() => {
+      if (theme == "light") {
+        setTheme("dark")
+      } else {
+        setTheme("light")
+      }
+    }}>
+      <HugeiconsIcon
+        icon={Sun01Icon}
+        className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0"
+      />
+      <HugeiconsIcon
+        icon={Moon02Icon}
+        className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100"
+      />
+    </Button>
+  );
+
+  /*return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant={"ghost"} size="icon" className="relative">
@@ -65,5 +84,5 @@ export default function ThemeSwitcher() {
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
-  );
+  );*/
 }

@@ -6,12 +6,12 @@ if (!baseUrl) {
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const routes = ["/en", "/en/articles", "/en/projects", "/en/about"].map(
+  const routes = ["/", "/articles", "/projects", "/about"].map(
     (route) => ({
       url: `${baseUrl}${route}`,
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
-      priority: route === "/en" ? 1 : 0.8,
+      priority: route === "/" ? 1 : 0.8,
     })
   );
 

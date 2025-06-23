@@ -24,15 +24,7 @@ interface Project {
   featured: boolean;
 }
 
-export default function ProjecstPage() {
-  return (
-    <Suspense>
-      <ProjectsContent />
-    </Suspense>
-  );
-}
-
-function ProjectsContent() {
+export default function ProjectsPage() {
   const [mounted, setMounted] = useState(false);
   const { t } = useTranslation("projects");
 
@@ -45,7 +37,7 @@ function ProjectsContent() {
       category: t("categories.android-app"),
       technologies: ["Java", "Smali", "React"],
       github: "https://github.com/mamiiblt/instafel",
-      website: "https://instafel.mamiiblt.me",
+      website: "https://instafel.app",
       telegram: "https://t.me/instafel",
       featured: true,
     },
@@ -57,7 +49,7 @@ function ProjectsContent() {
       category: t("categories.android-app"),
       technologies: ["Java"],
       github: "https://github.com/mamiiblt/instafel-updater",
-      website: "https://instafel.mamiiblt.me/about_updater",
+      website: "https://instafel.app/about_updater",
       featured: false,
     },
   ];

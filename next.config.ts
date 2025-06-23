@@ -19,22 +19,8 @@ const nextConfig: NextConfig = {
     ],
   },
   env: {
-    NEXT_PUBLIC_SITE_URL: "https://mamiiblt.me",
-  },
-  redirects: async () => {
-    return [
-      {
-        source: "/home",
-        destination: "/",
-        permanent: true,
-      },
-      {
-        source: "/guide",
-        destination: "/guides",
-        permanent: true,
-      },
-    ];
-  },
+    NEXT_PUBLIC_SITE_URL: "https://mamii.me",
+  }
 };
 
 export default nextConfig;

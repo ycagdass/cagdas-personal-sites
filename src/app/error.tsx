@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Home, RotateCcw } from "lucide-react";
+import Link from "next/link";
 
 export default function Error({
   error,
@@ -49,14 +50,13 @@ export default function Error({
           Retry
         </Button>
         <Button
-          href="/"
           asChild
           className="w-full sm:w-auto hover:scale-105 transition-transform"
         >
-          <a>
+          <Link href="/">
             <Home className="w-4 h-4 mr-2" />
             Home
-          </a>
+          </Link>
         </Button>
       </motion.div>
     </motion.div>

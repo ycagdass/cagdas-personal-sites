@@ -6,6 +6,7 @@ import { SITE_CONFIG } from "@/config/config";
 import { Toaster } from "@/components/ui/toaster";
 import { defaultMetadata } from "@/config/metadata";
 import Footer from "@/components/Footer";
+import LocaleProvider from "@/i18n/LocaleProvider";
 const appleTitle = SITE_CONFIG.siteName;
 const geist = Geist({
   subsets: ["latin"],
@@ -27,10 +28,12 @@ export default function RootLayout({
         className={`${geist.className} flex min-h-screen flex-col bg-background text-foreground`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <Navbar />
-          <Toaster />
-          <main className="flex-1">{children}</main>
-          <Footer />
+          <LocaleProvider>
+            <Navbar />
+            <Toaster />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </LocaleProvider>
         </ThemeProvider>
       </body>
     </html>

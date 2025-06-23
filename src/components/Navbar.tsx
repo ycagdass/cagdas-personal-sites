@@ -106,7 +106,7 @@ export default function Navbar() {
             transition={{ delay: 0.1, duration: 0.4 }}
             className="text-lg font-medium text-foreground"
           >
-            mami.
+            mamiiblt
           </motion.span>
         </Link>
 
@@ -206,7 +206,7 @@ export default function Navbar() {
                         />
                       </motion.div>
                       <span className="text-xl font-semibold bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-                        mami.
+                        mamiiblt
                       </span>
                     </div>
                   </div>

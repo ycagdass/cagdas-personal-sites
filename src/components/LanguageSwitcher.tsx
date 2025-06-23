@@ -6,35 +6,25 @@ import {
   DropdownMenuTrigger,
   DropdownMenuContent,
   DropdownMenuItem,
-} from "@/components/ui/dropdown-menu";
+} from "./ui/dropdown-menu";
 import { Globe } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { useT } from "@/i18n/client";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { HugeiconsIcon } from "@hugeicons/react";
-import { Globe02Icon } from "@hugeicons/core-free-icons";
+import { Button } from "./ui/button";
+import { useTranslation } from "react-i18next";
 
 export default function LanguageSwitcher() {
-  const { i18n } = useT();
-  const router = useRouter();
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
+  const { i18n } = useTranslation();
 
   const changeLanguage = (newLng: string) => {
-    document.cookie = `i18next=${newLng}; path=/`;
-    const segments = pathname.split("/");
-    segments[1] = newLng;
-    const newPath = segments.join("/");
-    const queryString = searchParams.toString();
-    const fullPath = queryString ? `${newPath}?${queryString}` : newPath;
-    router.push(fullPath);
+    i18n.changeLanguage(newLng, () => {
+      document.cookie = `${cookieName}=${newLng}; path=/`;
+    })
   };
 
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant={"ghost"} size="icon" className="relative">
-          <HugeiconsIcon icon={Globe02Icon} className="h-[1.2rem] w-[1.2rem]" />
+          <Globe className="h-4 w-4" />
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-40">

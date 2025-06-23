@@ -5,6 +5,11 @@ export const navLanguages = [
 ];
 export const languages = navLanguages.map((lang) => lang.code);
 export const defaultNS = "common";
-export const namespaces = ["common", "about", "projects", "blogs"];
-export const cookieName = "i18next";
-export const headerName = "x-i18next-current-language";
+export const namespaces = [
+  "about",
+  "articles",
+  "common",
+  "home",
+  "projects",
+];
+export const cookieName = "WPG_LANG";
