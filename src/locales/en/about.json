@@ -5,14 +5,28 @@
     "photo": "Profile Photo"
   },
   "about": "Hello! Usually I'm working mainly on Android development, Web, AI and some reverse engineering projects / apps in my free times. When I'm not crafting code, you can find me summoning solutions to problems on online judges. Just don't ask me to cast any love spells, my magic only works on machines!",
-  "interests": {
-    "desktop": "Desktop",
-    "reverse": "Reverse Engineering"
-  },
   "nav": {
     "projects": "My Projects",
     "articles": "My Articles",
-    "contactme": "Contact Me",
-    "buymeacoffee": "Buy Me a Coffee"
+    "support": "Support Me",
+    "contactme": "Contact Me"
+  },
+  "stats": {
+    "stats": "Statistics",
+    "stars": "Github Stars",
+    "cont": "Contribution",
+    "contgraph": "Contribution Graph",
+    "repo": "Repository",
+    "act": "{{count}} Active",
+    "com": "Community"
+  },
+  "tool-tech": "Tools & Technologies",
+  "spotify": {
+    "live": "Live",
+    "offline": "Offline",
+    "playing": "Listening Now",
+    "paused": "Paused",
+    "open": "Open in Spotify",
+    "currentlyno": "mami is not listening to music right now"
   }
 }

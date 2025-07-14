@@ -5,14 +5,28 @@
     "photo": "Profil Fotoğrafı"
   },
   "about": "Merhaba! Genellikle Android geliştirme, Web, AI ve tersine mühendislik projeleri üzerinde çalışıyorum. Boş zamanlarımda genellikle yeni teknolojileri dener, açık kaynak projeler geliştirir veya geliştirilmesine katkıda bulunurum.",
-  "interests": {
-    "desktop": "Masaüstü",
-    "reverse": "Tersine Mühendislik"
-  },
   "nav": {
     "projects": "Projelerim",
-    "articles": "Makalelerim",
-    "contactme": "İletişime Geç",
-    "buymeacoffee": "Buy Me a Coffee"
+    "articles": "Yazılarım",
+    "support": "Beni Destekle",
+    "contactme": "İletişime Geç"
+  },
+  "stats": {
+    "stats": "İstatistikler",
+    "stars": "Github Yıldızı",
+    "cont": "Katılım",
+    "contgraph": "Katılım Grafiği",
+    "repo": "Depo",
+    "act": "{{count}} Aktif",
+    "com": "Topluluk"
+  },
+  "tool-tech": "Araçlar & Teknolojiler",
+  "spotify": {
+    "live": "Canlı",
+    "offline": "Dinlemiyor",
+    "playing": "Şu An Dinliyor",
+    "paused": "Durdurdu",
+    "open": "Spotify'da aç",
+    "currentlyno": "mami şu an müzik dinlemiyor :("
   }
 }

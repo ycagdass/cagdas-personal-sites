@@ -16,11 +16,17 @@ const nextConfig: NextConfig = {
         hostname: "raw.githubusercontent.com",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "i.scdn.co",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
   env: {
     NEXT_PUBLIC_SITE_URL: "https://mamii.me",
-  }
+  },
 };
 
 export default nextConfig;

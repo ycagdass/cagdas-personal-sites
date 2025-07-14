@@ -13,13 +13,13 @@ export default function ClientHome({ posts }) {
     {
       text: t("heroButtons.viewProjects"),
       href: "/projects",
-      variant: "gradient",
+      variant: "secondary",
       size: "lg",
     },
     {
       text: t("heroButtons.aboutMe"),
       href: "/about",
-      variant: "gradient-secondary",
+      variant: "outline",
       size: "lg",
     },
   ];
