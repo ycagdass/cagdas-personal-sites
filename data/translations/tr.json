@@ -23,6 +23,14 @@
   "desc": "Bu sitede yazılarımı, projelerimi ve benimle ilgili her şeyi bulabilirsiniz!",
   "recentPosts": "Son Gönderiler",
   "viewAllPosts": "Tüm Gönderileri Gör",
+  "articles": {
+    "title": "Yazılar",
+    "subtitle": "Yazılım geliştirme hakkında teknik makaleler, öğreticiler ve düşünceler"
+  },
+  "projects": {
+    "title": "Projelerim",
+    "subtitle": "Geliştirdiğim uygulamalar, araçlar ve deneyimler"
+  },
   "about": {
     "title": "Hakkımda",
     "subtitle": "Yazılım Geliştirici & İçerik Üreticisi",

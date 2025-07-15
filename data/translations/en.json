@@ -23,6 +23,14 @@
   "desc": "You can find blogs, projects and everything about me!",
   "recentPosts": "Recent Posts",
   "viewAllPosts": "View All Posts",
+  "articles": {
+    "title": "Articles",
+    "subtitle": "Technical articles, tutorials and thoughts on software development"
+  },
+  "projects": {
+    "title": "My Projects",
+    "subtitle": "A collection of applications, tools and experiments I've built"
+  },
   "about": {
     "title": "About Me",
     "subtitle": "Software Developer & Content Creator",
