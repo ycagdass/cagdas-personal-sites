@@ -1,0 +1,51 @@
+{
+  "navbar": {
+    "items": {
+      "articles": "Articles",
+      "projects": "Projects",
+      "about": "About"
+    },
+    "appearance": {
+      "title": "Appearance",
+      "light": "Light",
+      "dark": "Dark",
+      "auto": "Auto"
+    }
+  },
+  "hero": {
+    "1": "Welcome to",
+    "2": "mamiiblt's island"
+  },
+  "heroButtons": {
+    "viewProjects": "View Projects",
+    "aboutMe": "About Me"
+  },
+  "desc": "You can find blogs, projects and everything about me!",
+  "recentPosts": "Recent Posts",
+  "viewAllPosts": "View All Posts",
+  "about": {
+    "title": "About Me",
+    "subtitle": "Software Developer & Content Creator",
+    "role": "Software Developer",
+    "description": {
+      "p1": "Hello! I'm mamiiblt, a passionate software developer and content creator. I love building applications, sharing knowledge, and contributing to the tech community.",
+      "p2": "When I'm not coding, you can find me writing technical articles, exploring new technologies, or working on open-source projects. I believe in the power of sharing knowledge and helping others grow in their development journey."
+    },
+    "skills": {
+      "title": "Skills & Technologies",
+      "frontend": "Frontend",
+      "mobile": "Mobile",
+      "tools": "Tools"
+    }
+  },
+  "footer": {
+    "smap-header": "Site Map",
+    "site-map": {
+      "home": "Home",
+      "articles": "Articles",
+      "projects": "Projects",
+      "about": "About"
+    },
+    "copyright": "© 2025 mamiiblt. All rights reserved."
+  }
+}

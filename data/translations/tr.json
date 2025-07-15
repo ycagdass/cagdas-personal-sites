@@ -1,0 +1,51 @@
+{
+  "navbar": {
+    "items": {
+      "articles": "Yazılar",
+      "projects": "Projeler",
+      "about": "Hakkımda"
+    },
+    "appearance": {
+      "title": "Görünüm",
+      "light": "Açık",
+      "dark": "Koyu",
+      "auto": "Otomatik"
+    }
+  },
+  "hero": {
+    "1": "mami'nin adasına",
+    "2": "hoş geldin"
+  },
+  "heroButtons": {
+    "viewProjects": "Projelerim",
+    "aboutMe": "Hakkımda"
+  },
+  "desc": "Bu sitede yazılarımı, projelerimi ve benimle ilgili her şeyi bulabilirsiniz!",
+  "recentPosts": "Son Gönderiler",
+  "viewAllPosts": "Tüm Gönderileri Gör",
+  "about": {
+    "title": "Hakkımda",
+    "subtitle": "Yazılım Geliştirici & İçerik Üreticisi",
+    "role": "Yazılım Geliştirici",
+    "description": {
+      "p1": "Merhaba! Ben mamiiblt, tutkulu bir yazılım geliştiricisi ve içerik üreticisiyim. Uygulama geliştirmeyi, bilgi paylaşmayı ve teknoloji topluluğuna katkıda bulunmayı seviyorum.",
+      "p2": "Kod yazmadığım zamanlarda beni teknik makaleler yazarken, yeni teknolojileri keşfederken veya açık kaynak projeler üzerinde çalışırken bulabilirsiniz. Bilgi paylaşmanın gücüne ve insanların gelişim yolculuklarında büyümelerine yardım etmeye inanıyorum."
+    },
+    "skills": {
+      "title": "Yetenekler & Teknolojiler",
+      "frontend": "Frontend",
+      "mobile": "Mobil",
+      "tools": "Araçlar"
+    }
+  },
+  "footer": {
+    "smap-header": "Site Haritası",
+    "site-map": {
+      "home": "Ana Sayfa",
+      "articles": "Yazılar",
+      "projects": "Projeler",
+      "about": "Hakkımda"
+    },
+    "copyright": "© 2025 mamiiblt. Tüm hakları saklıdır."
+  }
+}
