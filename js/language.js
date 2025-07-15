@@ -111,26 +111,26 @@ class LanguageManager {
                 'navbar.items.projects': 'Projects',
                 'navbar.items.about': 'About',
                 'hero.1': 'Welcome to',
-                'hero.2': "mamiiblt's island",
+                'hero.2': "devcagdas' site",
                 'desc': 'You can find blogs, projects and everything about me!',
                 'heroButtons.viewProjects': 'View Projects',
                 'heroButtons.aboutMe': 'About Me',
                 'recentPosts': 'Recent Posts',
                 'viewAllPosts': 'View All Posts',
-                'footer.copyright': '© 2025 mamiiblt. All rights reserved.'
+                'footer.copyright': '© 2025 devcagdas. All rights reserved.'
             },
             tr: {
                 'navbar.items.articles': 'Yazılar',
                 'navbar.items.projects': 'Projeler',
                 'navbar.items.about': 'Hakkımda',
-                'hero.1': "mami'nin adasına",
-                'hero.2': 'hoş geldin',
+                'hero.1': "devcagdas'ın",
+                'hero.2': 'sitesine hoş geldin',
                 'desc': 'Bu sitede yazılarımı, projelerimi ve benimle ilgili her şeyi bulabilirsiniz!',
                 'heroButtons.viewProjects': 'Projelerim',
                 'heroButtons.aboutMe': 'Hakkımda',
                 'recentPosts': 'Son Gönderiler',
                 'viewAllPosts': 'Tüm Gönderileri Gör',
-                'footer.copyright': '© 2025 mamiiblt. Tüm hakları saklıdır.'
+                'footer.copyright': '© 2025 devcagdas. Tüm hakları saklıdır.'
             }
         };
     }

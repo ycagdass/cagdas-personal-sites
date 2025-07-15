@@ -98,13 +98,13 @@ class App {
         // In a real implementation, this would fetch from /data/posts/ or an API
         return [
             {
-                title: "Instafel Updater Guide",
-                description: "An article on how to install and use Instafel Updater",
-                date: "4 Jan 2025",
-                tags: ["instafel", "instafel-updater"],
-                image: "/pbanners/instafel-updater.png",
-                slug: "instafel-updater-guide",
-                author: "mamiiblt"
+                title: "Welcome to My Personal Website",
+                description: "Exploring the journey of web development and sharing knowledge",
+                date: "15 Jan 2025",
+                tags: ["web-development", "personal"],
+                image: null,
+                slug: "welcome-to-my-website",
+                author: "devcagdas"
             }
         ];
     }

@@ -1,7 +1,7 @@
 {
   "navbar": {
     "items": {
-      "articles": "Yazılar",
+      "home": "Ana Sayfa",
       "projects": "Projeler",
       "about": "Hakkımda"
     },
@@ -13,37 +13,63 @@
     }
   },
   "hero": {
-    "1": "mami'nin adasına",
-    "2": "hoş geldin"
+    "1": "devcagdas'ın",
+    "2": "sitesine hoş geldin"
   },
   "heroButtons": {
     "viewProjects": "Projelerim",
     "aboutMe": "Hakkımda"
   },
   "desc": "Bu sitede yazılarımı, projelerimi ve benimle ilgili her şeyi bulabilirsiniz!",
-  "recentPosts": "Son Gönderiler",
-  "viewAllPosts": "Tüm Gönderileri Gör",
+  "recentPosts": "Son Notlar",
+  "viewAllPosts": "Tüm Notları Gör",
   "articles": {
-    "title": "Yazılar",
-    "subtitle": "Yazılım geliştirme hakkında teknik makaleler, öğreticiler ve düşünceler"
+    "title": "Öğrenme Notları",
+    "subtitle": "Teknoloji öğrenme yolculuğumdan projeler, deneyimler ve notlar"
   },
   "projects": {
     "title": "Projelerim",
     "subtitle": "Geliştirdiğim uygulamalar, araçlar ve deneyimler"
   },
   "about": {
-    "title": "Hakkımda",
-    "subtitle": "Yazılım Geliştirici & İçerik Üreticisi",
-    "role": "Yazılım Geliştirici",
-    "description": {
-      "p1": "Merhaba! Ben mamiiblt, tutkulu bir yazılım geliştiricisi ve içerik üreticisiyim. Uygulama geliştirmeyi, bilgi paylaşmayı ve teknoloji topluluğuna katkıda bulunmayı seviyorum.",
-      "p2": "Kod yazmadığım zamanlarda beni teknik makaleler yazarken, yeni teknolojileri keşfederken veya açık kaynak projeler üzerinde çalışırken bulabilirsiniz. Bilgi paylaşmanın gücüne ve insanların gelişim yolculuklarında büyümelerine yardım etmeye inanıyorum."
+    "title": "Merhaba, ben Çağdaş! 👋",
+    "subtitle": "Öğrenci & Geliştirici",
+    "description": "Programlama, 3D tasarım ve elektronik aracılığıyla teknolojiyi keşfetmeye tutkuyla bağlıyım. Basit uygulamalar geliştirmekten 3D modeller tasarlamaya ve ESP32 mikrocontrollerlarla çalışmaya kadar, temel ile orta seviye arasında öğrenmeyi ve yaratmayı seviyorum.",
+    "buttons": {
+      "github": "GitHub'ı Gör",
+      "projects": "Projeleri Gör"
+    },
+    "what_i_do": {
+      "title": "🚀 Ne Yapıyorum",
+      "description1": "Temel ile orta seviye arasında birden fazla disiplinde öğrenmeyi seven bir teknoloji meraklısıyım. Yolculuğum temel ile orta seviye programlama, 3D modelleme ve elektronik projeleri kapsar.",
+      "description2": "ESP32 gibi mikrocontrollerlarla deney yapmayı, görselleştirme ve 3D baskı için 3D modeller oluşturmayı ve günlük problemleri çözen basit uygulamalar geliştirmeyi seviyorum. İster basit bir otomasyon scripti ister basit bir IoT cihaz olsun, becerilerimi öğrenmeye ve geliştirmeye hep istekliyim."
     },
     "skills": {
-      "title": "Yetenekler & Teknolojiler",
-      "frontend": "Frontend",
-      "mobile": "Mobil",
-      "tools": "Araçlar"
+      "title": "💻 Beceriler & Teknolojiler",
+      "programming": "🖥️ Programlama (Temel-Orta)",
+      "electronics": "🔧 Elektronik & IoT (Temel-Orta)",
+      "design": "🎨 3D & Tasarım (Temel-Orta)",
+      "tools": "🛠️ Araçlar & Platformlar"
+    },
+    "focus": {
+      "title": "🎯 Şu Anki Öğrenim & İlgi Alanları",
+      "item1": "C# programlama becerilerimi geliştirme ve .NET temellerini öğrenme",
+      "item2": "Python otomasyon scriptleri ve basit veri analizi oluşturma",
+      "item3": "Flutter ve Dart ile mobil uygulama geliştirmeyi öğrenme",
+      "item4": "ESP32 ve basit sensörlerle temel IoT projeleri oluşturma",
+      "item5": "Fonksiyonel objeler ve kasalar tasarlayıp 3D baskı alma",
+      "item6": "Temel bilgisayarlı görü ve makine öğrenmesi kavramlarını keşfetme",
+      "item7": "Donanım ve yazılımı birleştiren basit elektronik projeler yapma",
+      "item8": "Temel PCB tasarımı ve devre prototipleme öğrenme"
+    },
+    "connect": {
+      "title": "📫 İletişime Geçelim",
+      "description": "Öğrenmeye meraklı insanlar, yapımcılar ve teknoloji meraklılarıyla bağlantı kurmaktan her zaman heyecan duyarım! Programlama projeleri tartışmak, 3D tasarım fikirlerini paylaşmak, temel elektronik hakkında konuşmak veya basit IoT deneyleri üzerinde işbirliği yapmak istiyorsanız, çekinmeden ulaşın.",
+      "github": "GitHub",
+      "email": "E-posta",
+      "instagram": "Instagram",
+      "telegram": "Telegram",
+      "projects": "Projeleri Gör"
     }
   },
   "footer": {
@@ -54,6 +80,6 @@
       "projects": "Projeler",
       "about": "Hakkımda"
     },
-    "copyright": "© 2025 mamiiblt. Tüm hakları saklıdır."
+    "copyright": "© 2025 devcagdas. Tüm hakları saklıdır."
   }
 }

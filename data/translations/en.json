@@ -1,7 +1,7 @@
 {
   "navbar": {
     "items": {
-      "articles": "Articles",
+      "home": "Home",
       "projects": "Projects",
       "about": "About"
     },
@@ -14,36 +14,62 @@
   },
   "hero": {
     "1": "Welcome to",
-    "2": "mamiiblt's island"
+    "2": "devcagdas' site"
   },
   "heroButtons": {
     "viewProjects": "View Projects",
     "aboutMe": "About Me"
   },
   "desc": "You can find blogs, projects and everything about me!",
-  "recentPosts": "Recent Posts",
-  "viewAllPosts": "View All Posts",
+  "recentPosts": "Recent Notes",
+  "viewAllPosts": "View All Notes",
   "articles": {
-    "title": "Articles",
-    "subtitle": "Technical articles, tutorials and thoughts on software development"
+    "title": "Learning Notes",
+    "subtitle": "Projects, experiences and notes from my technology learning journey"
   },
   "projects": {
     "title": "My Projects",
     "subtitle": "A collection of applications, tools and experiments I've built"
   },
   "about": {
-    "title": "About Me",
-    "subtitle": "Software Developer & Content Creator",
-    "role": "Software Developer",
-    "description": {
-      "p1": "Hello! I'm mamiiblt, a passionate software developer and content creator. I love building applications, sharing knowledge, and contributing to the tech community.",
-      "p2": "When I'm not coding, you can find me writing technical articles, exploring new technologies, or working on open-source projects. I believe in the power of sharing knowledge and helping others grow in their development journey."
+    "title": "Hey, I'm Çağdaş! 👋",
+    "subtitle": "Student & Developer",
+    "description": "I'm passionate about exploring technology through programming, 3D design, and electronics. From building simple applications to designing 3D models and working with ESP32 microcontrollers, I enjoy learning and creating at a foundational to intermediate level.",
+    "buttons": {
+      "github": "View GitHub",
+      "projects": "View Projects"
+    },
+    "what_i_do": {
+      "title": "🚀 What I Do",
+      "description1": "I'm a technology enthusiast who enjoys learning across multiple disciplines at a foundational to intermediate level. My journey spans basic to intermediate programming, 3D modeling, and electronics projects.",
+      "description2": "I enjoy experimenting with microcontrollers like ESP32, creating 3D models for visualization and 3D printing, and building simple applications that solve everyday problems. Whether it's a basic automation script or a simple IoT device, I'm always eager to learn and improve my skills."
     },
     "skills": {
-      "title": "Skills & Technologies",
-      "frontend": "Frontend",
-      "mobile": "Mobile",
-      "tools": "Tools"
+      "title": "💻 Skills & Technologies",
+      "programming": "🖥️ Programming (Basic-Intermediate)",
+      "electronics": "🔧 Electronics & IoT (Basic-Intermediate)",
+      "design": "🎨 3D & Design (Basic-Intermediate)",
+      "tools": "🛠️ Tools & Platforms"
+    },
+    "focus": {
+      "title": "🎯 Current Learning & Interests",
+      "item1": "Improving C# programming skills and learning .NET basics",
+      "item2": "Building Python automation scripts and simple data analysis",
+      "item3": "Learning mobile app development with Flutter and Dart",
+      "item4": "Creating basic IoT projects with ESP32 and simple sensors",
+      "item5": "Designing and 3D printing functional objects and enclosures",
+      "item6": "Exploring basic computer vision and machine learning concepts",
+      "item7": "Building simple electronics projects that combine hardware and software",
+      "item8": "Learning basic PCB design and circuit prototyping"
+    },
+    "connect": {
+      "title": "📫 Let's Connect",
+      "description": "I'm always excited to connect with fellow learners, makers, and technology enthusiasts! Whether you want to discuss programming projects, share 3D design ideas, talk about basic electronics, or collaborate on simple IoT experiments, feel free to reach out.",
+      "github": "GitHub",
+      "email": "Email",
+      "instagram": "Instagram",
+      "telegram": "Telegram",
+      "projects": "View Projects"
     }
   },
   "footer": {
@@ -54,6 +80,6 @@
       "projects": "Projects",
       "about": "About"
     },
-    "copyright": "© 2025 mamiiblt. All rights reserved."
+    "copyright": "© 2025 devcagdas. All rights reserved."
   }
 }
