@@ -67,14 +67,18 @@
 }
 
 .navbar-logo-icon {
-    width: 24px;
-    height: 24px;
-    transition: transform 0.3s ease;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--primary);
+    transition: all 0.3s ease;
     animation: iconFloat 0.5s ease-out;
+    display: inline-block;
 }
 
 .navbar-logo:hover .navbar-logo-icon {
-    transform: rotate(-10deg) scale(1.1);
+    transform: rotate(15deg) scale(1.2);
+    color: var(--accent);
+    text-shadow: 0 0 10px var(--primary);
 }
 
 .navbar-logo-text {
