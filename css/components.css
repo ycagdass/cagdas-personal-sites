@@ -1336,7 +1336,7 @@
     }
 }
 
-/* Skills and Interests */
+/* Skills and Interests - Updated */
 .about-skills {
     margin-top: 4rem;
     padding-top: 4rem;
@@ -1636,6 +1636,39 @@
 
 .contact-link:hover svg {
     transform: scale(1.1);
+}
+
+/* About Content Container */
+.about-content {
+    margin-top: 4rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 640px) {
+    .about-content {
+        margin-top: 2rem;
+    }
+}
+
+/* Make sure about section takes full container */
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+    .about-container {
+        padding: 0 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .about-container {
+        padding: 0 2rem;
+    }
 }
 
 /* Animations */
