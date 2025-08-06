@@ -3,13 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>devcagdas - Welcome to devcagdas' site</title>
-    <meta name="description" content="You can find blogs, projects and everything about me!">
+    <title>devcagdas - Software Developer & Portfolio</title>
+    <meta name="description" content="Welcome to devcagdas' portfolio - Software developer specializing in web development, mobile apps, and modern technologies. Explore my projects, articles, and expertise.">
+    <meta name="keywords" content="devcagdas, software developer, web development, mobile development, portfolio, projects, programming, HTML, CSS, JavaScript, Kotlin, Android">
     <meta name="author" content="devcagdas">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://devcagdas.netlify.app/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://devcagdas.netlify.app/">
+    <meta property="og:title" content="devcagdas - Software Developer & Portfolio">
+    <meta property="og:description" content="Welcome to devcagdas' portfolio - Software developer specializing in web development, mobile apps, and modern technologies.">
+    <meta property="og:image" content="https://devcagdas.netlify.app/dclogo.png">
+    <meta property="og:site_name" content="devcagdas Portfolio">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://devcagdas.netlify.app/">
+    <meta name="twitter:title" content="devcagdas - Software Developer & Portfolio">
+    <meta name="twitter:description" content="Welcome to devcagdas' portfolio - Software developer specializing in web development, mobile apps, and modern technologies.">
+    <meta name="twitter:image" content="https://devcagdas.netlify.app/dclogo.png">
+    <meta name="twitter:creator" content="@devcagdas">
+    
+    <!-- Additional SEO -->
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="rating" content="general">
+    <meta name="geo.region" content="TR">
+    <meta name="geo.country" content="Turkey">
     
     <!-- Theme color -->
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#3b82f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#1e40af" media="(prefers-color-scheme: dark)">
     
     <!-- Favicon -->
     <link rel="icon" href="/dclogo.png" type="image/png">
@@ -19,14 +46,44 @@
     <!-- Web App Manifest -->
     <link rel="manifest" href="/manifest.json">
     
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://api.github.com">
+    
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/main.css?v=2.0">
-    <link rel="stylesheet" href="/css/components.css?v=2.0">
-    <link rel="stylesheet" href="/css/themes.css?v=2.0">
+    <link rel="stylesheet" href="/css/main.css?v=2.1">
+    <link rel="stylesheet" href="/css/components.css?v=2.1">
+    <link rel="stylesheet" href="/css/themes.css?v=2.1">
     
     <!-- Preload critical resources -->
     <link rel="preload" href="/data/translations/en.json" as="fetch" crossorigin="anonymous">
     <link rel="preload" href="/data/translations/tr.json" as="fetch" crossorigin="anonymous">
+    <link rel="preload" href="/dclogo.png" as="image">
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "devcagdas",
+      "url": "https://devcagdas.netlify.app",
+      "image": "https://devcagdas.netlify.app/dclogo.png",
+      "jobTitle": "Software Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance"
+      },
+      "description": "Software developer specializing in web development, mobile apps, and modern technologies",
+      "knowsAbout": ["Web Development", "Mobile Development", "JavaScript", "HTML", "CSS", "Kotlin", "Android", "React", "Node.js"],
+      "sameAs": [
+        "https://github.com/ycagdass"
+      ],
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://devcagdas.netlify.app"
+      }
+    }
+    </script>
 </head>
 <body class="bg-background text-foreground">
     <!-- Loading screen -->

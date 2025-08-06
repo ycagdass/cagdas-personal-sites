@@ -3,13 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects - devcagdas</title>
-    <meta name="description" content="Explore mamiiblt's projects - software applications, tools and open source contributions">
-    <meta name="author" content="mamiiblt">
+    <title>Projects - devcagdas | Software Development Portfolio</title>
+    <meta name="description" content="Explore devcagdas's software development projects - web applications, mobile apps, tools, and open source contributions. Built with modern technologies like React, Kotlin, JavaScript, and more.">
+    <meta name="keywords" content="devcagdas projects, software projects, web development, mobile apps, React projects, Kotlin apps, JavaScript tools, portfolio projects">
+    <meta name="author" content="devcagdas">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://devcagdas.netlify.app/projects.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://devcagdas.netlify.app/projects.html">
+    <meta property="og:title" content="Projects - devcagdas | Software Development Portfolio">
+    <meta property="og:description" content="Explore devcagdas's software development projects - web applications, mobile apps, tools, and open source contributions.">
+    <meta property="og:image" content="https://devcagdas.netlify.app/dclogo.png">
+    <meta property="og:site_name" content="devcagdas Portfolio">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://devcagdas.netlify.app/projects.html">
+    <meta name="twitter:title" content="Projects - devcagdas | Software Development Portfolio">
+    <meta name="twitter:description" content="Explore devcagdas's software development projects - web applications, mobile apps, tools, and open source contributions.">
+    <meta name="twitter:image" content="https://devcagdas.netlify.app/dclogo.png">
     
     <!-- Theme color -->
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#3b82f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#1e40af" media="(prefers-color-scheme: dark)">
     
     <!-- Favicon -->
     <link rel="icon" href="/dclogo.png" type="image/png">
@@ -20,13 +38,47 @@
     <link rel="manifest" href="/manifest.json">
     
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/main.css?v=2.0">
-    <link rel="stylesheet" href="/css/components.css?v=2.0">
-    <link rel="stylesheet" href="/css/themes.css?v=2.0">
+    <link rel="stylesheet" href="/css/main.css?v=2.1">
+    <link rel="stylesheet" href="/css/components.css?v=2.1">
+    <link rel="stylesheet" href="/css/themes.css?v=2.1">
     
     <!-- Preload critical resources -->
     <link rel="preload" href="/data/translations/en.json" as="fetch" crossorigin="anonymous">
     <link rel="preload" href="/data/translations/tr.json" as="fetch" crossorigin="anonymous">
+    <link rel="preload" href="/data/projects.json" as="fetch" crossorigin="anonymous">
+    
+    <!-- JSON-LD Structured Data for Projects -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Projects - devcagdas",
+      "description": "A collection of software development projects by devcagdas",
+      "url": "https://devcagdas.netlify.app/projects.html",
+      "author": {
+        "@type": "Person",
+        "name": "devcagdas",
+        "url": "https://devcagdas.netlify.app"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Software Projects",
+        "description": "Collection of web applications, mobile apps, and development tools",
+        "numberOfItems": 6,
+        "itemListElement": [
+          {
+            "@type": "SoftwareApplication",
+            "name": "Personal Portfolio Website",
+            "description": "A modern, responsive personal website built with vanilla HTML, CSS, and JavaScript",
+            "applicationCategory": "WebApplication",
+            "operatingSystem": "Web Browser",
+            "programmingLanguage": ["HTML", "CSS", "JavaScript"],
+            "url": "https://github.com/ycagdass/cagdas-personal-sites"
+          }
+        ]
+      }
+    }
+    </script>
 </head>
 <body class="bg-background text-foreground">
     <!-- Loading screen -->
