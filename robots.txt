@@ -1,5 +1,23 @@
 User-agent: *
 Allow: /
 
-# Sitemap URL
-Sitemap: https://mamii.me/sitemap.xml
+# Disallow sensitive directories
+Disallow: /private/
+Disallow: /admin/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /tmp/
+
+# Allow important pages
+Allow: /css/
+Allow: /js/
+Allow: /data/
+Allow: /public/
+Allow: /dclogo.png
+Allow: /manifest.json
+
+# Crawl delay
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://devcagdas.netlify.app/sitemap.xml

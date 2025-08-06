@@ -3,13 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - devcagdas</title>
-    <meta name="description" content="Learn more about devcagdas - software developer and content creator">
+    <title>About - devcagdas | Software Developer Profile</title>
+    <meta name="description" content="Learn about devcagdas - passionate software developer specializing in web development, mobile apps, and modern technologies. Discover my background, skills, and journey in programming.">
+    <meta name="keywords" content="devcagdas about, software developer profile, web developer, mobile developer, programming skills, developer background">
     <meta name="author" content="devcagdas">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://devcagdas.netlify.app/about.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://devcagdas.netlify.app/about.html">
+    <meta property="og:title" content="About - devcagdas | Software Developer Profile">
+    <meta property="og:description" content="Learn about devcagdas - passionate software developer specializing in web development, mobile apps, and modern technologies.">
+    <meta property="og:image" content="https://devcagdas.netlify.app/dclogo.png">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://devcagdas.netlify.app/about.html">
+    <meta name="twitter:title" content="About - devcagdas | Software Developer Profile">
+    <meta name="twitter:description" content="Learn about devcagdas - passionate software developer specializing in web development, mobile apps, and modern technologies.">
+    <meta name="twitter:image" content="https://devcagdas.netlify.app/dclogo.png">
     
     <!-- Theme color -->
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#3b82f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#1e40af" media="(prefers-color-scheme: dark)">
     
     <!-- Favicon -->
     <link rel="icon" href="/dclogo.png" type="image/png">
@@ -20,13 +37,34 @@
     <link rel="manifest" href="/manifest.json">
     
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/main.css?v=2.0">
-    <link rel="stylesheet" href="/css/components.css?v=2.0">
-    <link rel="stylesheet" href="/css/themes.css?v=2.0">
+    <link rel="stylesheet" href="/css/main.css?v=2.1">
+    <link rel="stylesheet" href="/css/components.css?v=2.1">
+    <link rel="stylesheet" href="/css/themes.css?v=2.1">
     
     <!-- Preload critical resources -->
     <link rel="preload" href="/data/translations/en.json" as="fetch" crossorigin="anonymous">
     <link rel="preload" href="/data/translations/tr.json" as="fetch" crossorigin="anonymous">
+    
+    <!-- JSON-LD Structured Data for About Page -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "name": "About devcagdas",
+      "description": "Learn about devcagdas - software developer specializing in web and mobile development",
+      "url": "https://devcagdas.netlify.app/about.html",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "devcagdas",
+        "jobTitle": "Software Developer",
+        "description": "Passionate software developer specializing in web development, mobile apps, and modern technologies",
+        "url": "https://devcagdas.netlify.app",
+        "sameAs": [
+          "https://github.com/ycagdass"
+        ]
+      }
+    }
+    </script>
 </head>
 <body class="bg-background text-foreground">
     <!-- Loading screen -->
